@@ -19,7 +19,7 @@ pow--;
 return accumulator;
 }
 //definition de la fonction bonjour (EXERCICE 1)
-void salbonjour(){
+void salutationbonjour(){
 	printf("bonjour\n");
 }
 //definition de la fonction inverse des nombres (EXERCICE 2)
