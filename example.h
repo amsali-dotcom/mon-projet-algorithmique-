@@ -5,7 +5,7 @@ unsigned int fact( unsigned int value );
 // Définition d'une fonction d'élévation à une puissance données.
 int power( int value, unsigned int pow );
 //definition de la fonction bonjour (EXERCICE 1)
-void salbonjour();
+void salutationbonjour();
 //definition de la fonction inverse des nombres (EXERCICE 2)
 int inv(int x);
 //definition de la fonction produit de deux reels (EXERCICE 3)
