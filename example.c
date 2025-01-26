@@ -70,3 +70,10 @@ void croissant(int x, int y, int z){
 	else
 	printf("%d<%d<%d", y,z,x);
 }
+//definition de la fonction qui inverse le contenu de deux caracteres en utlisant les pointeurs
+void permutation(char *a, char *b){
+	char temp;
+	temp=*a;
+	*a=*b;
+	*b=temp;
+}
