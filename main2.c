@@ -41,5 +41,10 @@ int x,y,z;
 printf("entrer trois entiers :");
 scanf("%d%d%d", &x,&y,&z);
 croissant(x,y,z);
+  
+printf("\n\tEXERCICE 16\n");
+char e='e', f='f';
+permutation(&e, &f);
+printf("e=%c, f=%c\n", e,f);
 return EXIT_SUCCESS;
 }
