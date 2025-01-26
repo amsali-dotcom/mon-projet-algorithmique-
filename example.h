@@ -16,4 +16,6 @@ void parite(int n);
 void comparaison(int a, int b);
 //definition de la fonction de classement de trois entiers par ordre croissant (EXERCICE 6)
 void croissant(int x, int b, int z);
+//definition de la fonction qui inverse le contenu de deux caracteres en utlisant les pointeurs
+void permutation(char *a, char *b);
 #endif
