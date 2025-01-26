@@ -43,7 +43,9 @@ scanf("%d%d%d", &x,&y,&z);
 croissant(x,y,z);
   
 printf("\n\tEXERCICE 16: Programme qui permute le contenu de deux caracteres\n");
-char e='e', f='f';
+char e; f;
+printf("entrer deux caracteres: ");
+scanf(" %c %c", &e, &f);
 permutation(&e, &f);
 printf("e=%c, f=%c\n", e,f);
 
