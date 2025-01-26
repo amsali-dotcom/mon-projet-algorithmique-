@@ -14,7 +14,7 @@ printf("\tEXERCICE 2: Programme en C qui inverse le sens d'ecriture d'un nombre\
 int nombre;
 printf("entrer un entier a trois chiffres:");
 scanf("%d", &nombre);
-int inver=inv(nombre);
+int inver=inverse(nombre);
 printf("l'inverse de %d est %d\n",nombre, inver);
 
 printf("\tEXERCICE 3: Produit de deux reels\n");
@@ -46,5 +46,12 @@ printf("\n\tEXERCICE 16: Programme qui permute le contenu de deux caracteres\n")
 char e='e', f='f';
 permutation(&e, &f);
 printf("e=%c, f=%c\n", e,f);
+
+printf("\tEXERCICE 17: Fonction qui fais la somme de deux entiers\n");
+int g, h, i;
+printf("entrer deux entiers :");
+scanf("%d%d", &g, &h);
+i=Somme(g,h);
+printf("%d+%d=%d",g,h, i);
 return EXIT_SUCCESS;
 }
