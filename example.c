@@ -23,7 +23,7 @@ void salutationbonjour(){
 	printf("bonjour\n");
 }
 //definition de la fonction inverse des nombres (EXERCICE 2)
-int inv(int x){
+int inverse(int x){
     int inverse, centaine, dizaine, unite ;
     if(x >= 100 && x<= 999){
         centaine = x/100;
@@ -77,3 +77,8 @@ void permutation(char *a, char *b){
 	*a=*b;
 	*b=temp;
 }
+//definition d'une fonction qui fais la somme de deux entiers (EXERCICE 17)
+int Somme(int a, int b){
+	int somme;
+	somme=a+b;
+	return somme;
